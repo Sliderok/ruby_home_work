@@ -5,9 +5,9 @@ b = gets.chomp.to_i
 puts "3rd side"
 c = gets.chomp.to_i
 if a == b && a == c
-	puts "Ravnostoroniy"
+  puts "Ravnostoroniy"
 elsif a == b || a == c || c == b
-	puts "Ravnobedren"
+  puts "Ravnobedren"
 else
-	puts "Neponyatno"
+  puts "Neponyatno"
 end
